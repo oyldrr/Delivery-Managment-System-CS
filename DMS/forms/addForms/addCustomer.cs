@@ -12,6 +12,7 @@ using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Utilities.Net;
+using DMS.UserControls;
 
 namespace DMS.forms.addForms
 {
@@ -54,8 +55,13 @@ namespace DMS.forms.addForms
                     command.Parameters.AddWithValue("@val6", city);
                     command.Parameters.AddWithValue("@val7", street);
                     command.ExecuteNonQuery();
+
+                    customersUC obj = new customersUC();
+                    obj.retrieveData(1);
+
                     MessageBox.Show("New customer record succesfully created!", "Done");
                     this.Close();
+
                 }
                 catch (MySqlException ex)
                 {

@@ -131,6 +131,24 @@
     <Compile Include="forms\addForms\addCustomer.Designer.cs">
       <DependentUpon>addCustomer.cs</DependentUpon>
     </Compile>
+    <Compile Include="forms\updateForms\updateBranch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\updateForms\updateBranch.Designer.cs">
+      <DependentUpon>updateBranch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\updateForms\updateCargo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\updateForms\updateCargo.Designer.cs">
+      <DependentUpon>updateCargo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="forms\updateForms\updateCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="forms\updateForms\updateCustomer.Designer.cs">
+      <DependentUpon>updateCustomer.cs</DependentUpon>
+    </Compile>
     <Compile Include="main.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -165,6 +183,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="forms\addForms\addCustomer.resx">
       <DependentUpon>addCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\updateForms\updateBranch.resx">
+      <DependentUpon>updateBranch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\updateForms\updateCargo.resx">
+      <DependentUpon>updateCargo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="forms\updateForms\updateCustomer.resx">
+      <DependentUpon>updateCustomer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>

@@ -61,3 +61,6 @@ C:\Users\oyldr\source\repos\DMS\DMS\bin\Debug\System.Text.Json.xml
 C:\Users\oyldr\source\repos\DMS\DMS\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\oyldr\source\repos\DMS\DMS\bin\Debug\System.ValueTuple.xml
 C:\Users\oyldr\source\repos\DMS\DMS\bin\Debug\Zen.Barcode.Core.dll
+C:\Users\oyldr\source\repos\DMS\DMS\obj\Debug\DMS.forms.updateForms.updateBranch.resources
+C:\Users\oyldr\source\repos\DMS\DMS\obj\Debug\DMS.forms.updateForms.updateCargo.resources
+C:\Users\oyldr\source\repos\DMS\DMS\obj\Debug\DMS.forms.updateForms.updateCustomer.resources

@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using DMS.UserControls;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -48,7 +49,11 @@ namespace DMS.forms.addForms
                     command.Parameters.AddWithValue("@val5", city);
                     command.Parameters.AddWithValue("@val6", street);
                     command.ExecuteNonQuery();
-                    MessageBox.Show("New customer record succesfully created!", "Done");
+
+                    branchesUC obj = new branchesUC();
+                    obj.retrieveData(1);
+
+                    MessageBox.Show("New branch record succesfully created!", "Done");
                     this.Close();
                 }
                 catch (MySqlException ex)

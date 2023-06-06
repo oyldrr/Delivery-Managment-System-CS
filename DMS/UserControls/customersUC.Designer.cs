@@ -33,7 +33,8 @@
             this.addCustomerButton = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.searchBox = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.cargoCheckbox = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
+            this.customerCheckBox = new ComponentFactory.Krypton.Toolkit.KryptonCheckBox();
+            this.cardViewPanel = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,29 +117,40 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // cargoCheckbox
+            // customerCheckBox
             // 
-            this.cargoCheckbox.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.cargoCheckbox.Location = new System.Drawing.Point(971, 107);
-            this.cargoCheckbox.Name = "cargoCheckbox";
-            this.cargoCheckbox.Size = new System.Drawing.Size(228, 27);
-            this.cargoCheckbox.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cargoCheckbox.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.cargoCheckbox.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
-            this.cargoCheckbox.TabIndex = 6;
-            this.cargoCheckbox.Values.Text = "Show disactive cargos";
+            this.customerCheckBox.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerCheckBox.Location = new System.Drawing.Point(971, 107);
+            this.customerCheckBox.Name = "customerCheckBox";
+            this.customerCheckBox.Size = new System.Drawing.Size(228, 27);
+            this.customerCheckBox.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.customerCheckBox.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.customerCheckBox.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
+            this.customerCheckBox.TabIndex = 6;
+            this.customerCheckBox.Values.Text = "Show disactive cargos";
+            this.customerCheckBox.CheckStateChanged += new System.EventHandler(this.customerCheckBox_CheckStateChanged);
+            // 
+            // cardViewPanel
+            // 
+            this.cardViewPanel.AutoScroll = true;
+            this.cardViewPanel.Location = new System.Drawing.Point(22, 155);
+            this.cardViewPanel.Name = "cardViewPanel";
+            this.cardViewPanel.Size = new System.Drawing.Size(1540, 514);
+            this.cardViewPanel.TabIndex = 9;
             // 
             // customersUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.cardViewPanel);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.cargoCheckbox);
+            this.Controls.Add(this.customerCheckBox);
             this.Controls.Add(this.searchBox);
             this.Controls.Add(this.addCustomerButton);
             this.Controls.Add(this.CustomerLabel);
             this.Name = "customersUC";
             this.Size = new System.Drawing.Size(1582, 771);
+            this.Load += new System.EventHandler(this.customersUC_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -151,6 +163,7 @@
         private ComponentFactory.Krypton.Toolkit.KryptonButton addCustomerButton;
         private ComponentFactory.Krypton.Toolkit.KryptonTextBox searchBox;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private ComponentFactory.Krypton.Toolkit.KryptonCheckBox cargoCheckbox;
+        private ComponentFactory.Krypton.Toolkit.KryptonCheckBox customerCheckBox;
+        private System.Windows.Forms.Panel cardViewPanel;
     }
 }

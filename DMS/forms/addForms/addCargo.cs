@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using DMS.UserControls;
+using MySql.Data.MySqlClient;
 using Org.BouncyCastle.Math;
 using System;
 using System.Collections;
@@ -63,7 +64,11 @@ namespace DMS.forms.addForms
                     command.Parameters.AddWithValue("@val11", payer);
                     command.Parameters.AddWithValue("@val12", description);
                     command.ExecuteNonQuery();
-                    MessageBox.Show("New customer record succesfully created!", "Done");
+
+                    cargosUC obj = new cargosUC();
+                    obj.retrieveData(1);
+
+                    MessageBox.Show("New cargo record succesfully created!", "Done");
                     this.Close();
                 }
                 catch (MySqlException ex)
@@ -173,7 +178,6 @@ namespace DMS.forms.addForms
 
             Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
             pictureBox.Image = barcode.Draw(barcodeData, 50);
-
             barcodeGenerateButton.Visible = false;
             pictureBox.Visible = true;
         }
