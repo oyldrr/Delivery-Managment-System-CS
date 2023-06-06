@@ -84,7 +84,7 @@
             this.fullnameTextBox.Location = new System.Drawing.Point(142, 126);
             this.fullnameTextBox.Name = "fullnameTextBox";
             this.fullnameTextBox.Size = new System.Drawing.Size(238, 28);
-            this.fullnameTextBox.TabIndex = 30;
+            this.fullnameTextBox.TabIndex = 1;
             // 
             // kryptonLabel3
             // 
@@ -105,7 +105,7 @@
             this.citizenTextBox.Location = new System.Drawing.Point(142, 178);
             this.citizenTextBox.Name = "citizenTextBox";
             this.citizenTextBox.Size = new System.Drawing.Size(238, 28);
-            this.citizenTextBox.TabIndex = 32;
+            this.citizenTextBox.TabIndex = 2;
             // 
             // kryptonLabel4
             // 
@@ -126,7 +126,7 @@
             this.mobileTextBox.Location = new System.Drawing.Point(142, 235);
             this.mobileTextBox.Name = "mobileTextBox";
             this.mobileTextBox.Size = new System.Drawing.Size(238, 28);
-            this.mobileTextBox.TabIndex = 34;
+            this.mobileTextBox.TabIndex = 3;
             // 
             // kryptonLabel5
             // 
@@ -170,209 +170,13 @@
             // countryCombo
             // 
             this.countryCombo.DropDownWidth = 238;
-            this.countryCombo.Items.AddRange(new object[] {
-            "Afghanistan",
-            "Albania",
-            "Algeria",
-            "Andorra",
-            "Angola",
-            "Antigua & Deps",
-            "Argentina",
-            "Armenia",
-            "Australia",
-            "Austria",
-            "Azerbaijan",
-            "Bahamas",
-            "Bahrain",
-            "Bangladesh",
-            "Barbados",
-            "Belarus",
-            "Belgium",
-            "Belize",
-            "Benin",
-            "Bhutan",
-            "Bolivia",
-            "Bosnia Herzegovina",
-            "Botswana",
-            "Brazil",
-            "Brunei",
-            "Bulgaria",
-            "Burkina",
-            "Burundi",
-            "Cambodia",
-            "Cameroon",
-            "Canada",
-            "Cape Verde",
-            "Central African Rep",
-            "Chad",
-            "Chile",
-            "China",
-            "Colombia",
-            "Comoros",
-            "Congo",
-            "Congo {Democratic Rep}",
-            "Costa Rica",
-            "Croatia",
-            "Cuba",
-            "Cyprus",
-            "Czech Republic",
-            "Denmark",
-            "Djibouti",
-            "Dominica",
-            "Dominican Republic",
-            "East Timor",
-            "Ecuador",
-            "Egypt",
-            "El Salvador",
-            "Equatorial Guinea",
-            "Eritrea",
-            "Estonia",
-            "Ethiopia",
-            "Fiji",
-            "Finland",
-            "France",
-            "Gabon",
-            "Gambia",
-            "Georgia",
-            "Germany",
-            "Ghana",
-            "Greece",
-            "Grenada",
-            "Guatemala",
-            "Guinea",
-            "Guinea-Bissau",
-            "Guyana",
-            "Haiti",
-            "Honduras",
-            "Hungary",
-            "Iceland",
-            "India",
-            "Indonesia",
-            "Iran",
-            "Iraq",
-            "Ireland {Republic}",
-            "Israel",
-            "Italy",
-            "Ivory Coast",
-            "Jamaica",
-            "Japan",
-            "Jordan",
-            "Kazakhstan",
-            "Kenya",
-            "Kiribati",
-            "Korea North",
-            "Korea South",
-            "Kosovo",
-            "Kuwait",
-            "Kyrgyzstan",
-            "Laos",
-            "Latvia",
-            "Lebanon",
-            "Lesotho",
-            "Liberia",
-            "Libya",
-            "Liechtenstein",
-            "Lithuania",
-            "Luxembourg",
-            "Macedonia",
-            "Madagascar",
-            "Malawi",
-            "Malaysia",
-            "Maldives",
-            "Mali",
-            "Malta",
-            "Marshall Islands",
-            "Mauritania",
-            "Mauritius",
-            "Mexico",
-            "Micronesia",
-            "Moldova",
-            "Monaco",
-            "Mongolia",
-            "Montenegro",
-            "Morocco",
-            "Mozambique",
-            "Myanmar, {Burma}",
-            "Namibia",
-            "Nauru",
-            "Nepal",
-            "Netherlands",
-            "New Zealand",
-            "Nicaragua",
-            "Niger",
-            "Nigeria",
-            "Norway",
-            "Oman",
-            "Pakistan",
-            "Palau",
-            "Panama",
-            "Papua New Guinea",
-            "Paraguay",
-            "Peru",
-            "Philippines",
-            "Poland",
-            "Portugal",
-            "Qatar",
-            "Romania",
-            "Russian Federation",
-            "Rwanda",
-            "St Kitts & Nevis",
-            "St Lucia",
-            "Saint Vincent & the Grenadines",
-            "Samoa",
-            "San Marino",
-            "Sao Tome & Principe",
-            "Saudi Arabia",
-            "Senegal",
-            "Serbia",
-            "Seychelles",
-            "Sierra Leone",
-            "Singapore",
-            "Slovakia",
-            "Slovenia",
-            "Solomon Islands",
-            "Somalia",
-            "South Africa",
-            "South Sudan",
-            "Spain",
-            "Sri Lanka",
-            "Sudan",
-            "Suriname",
-            "Swaziland",
-            "Sweden",
-            "Switzerland",
-            "Syria",
-            "Taiwan",
-            "Tajikistan",
-            "Tanzania",
-            "Thailand",
-            "Togo",
-            "Tonga",
-            "Trinidad & Tobago",
-            "Tunisia",
-            "Turkey",
-            "Turkmenistan",
-            "Tuvalu",
-            "Uganda",
-            "Ukraine",
-            "United Arab Emirates",
-            "United Kingdom",
-            "United States",
-            "Uruguay",
-            "Uzbekistan",
-            "Vanuatu",
-            "Vatican City",
-            "Venezuela",
-            "Vietnam",
-            "Yemen",
-            "Zambia",
-            "Zimbabwe"});
             this.countryCombo.Location = new System.Drawing.Point(142, 359);
             this.countryCombo.Name = "countryCombo";
             this.countryCombo.Size = new System.Drawing.Size(238, 26);
             this.countryCombo.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.countryCombo.StateCommon.ComboBox.Content.Padding = new System.Windows.Forms.Padding(1);
-            this.countryCombo.TabIndex = 37;
+            this.countryCombo.TabIndex = 4;
+            this.countryCombo.SelectedIndexChanged += new System.EventHandler(this.countryCombo_SelectedIndexChanged);
             // 
             // stateCombo
             // 
@@ -381,7 +185,9 @@
             this.stateCombo.Name = "stateCombo";
             this.stateCombo.Size = new System.Drawing.Size(238, 26);
             this.stateCombo.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.stateCombo.TabIndex = 39;
+            this.stateCombo.StateCommon.ComboBox.Content.Padding = new System.Windows.Forms.Padding(1);
+            this.stateCombo.TabIndex = 5;
+            this.stateCombo.SelectedIndexChanged += new System.EventHandler(this.stateCombo_SelectedIndexChanged);
             // 
             // kryptonLabel7
             // 
@@ -403,7 +209,8 @@
             this.cityCombo.Name = "cityCombo";
             this.cityCombo.Size = new System.Drawing.Size(238, 26);
             this.cityCombo.StateCommon.ComboBox.Content.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.cityCombo.TabIndex = 41;
+            this.cityCombo.StateCommon.ComboBox.Content.Padding = new System.Windows.Forms.Padding(1);
+            this.cityCombo.TabIndex = 6;
             // 
             // kryptonLabel8
             // 
@@ -438,7 +245,7 @@
             this.submitCustomer.Location = new System.Drawing.Point(20, 559);
             this.submitCustomer.Name = "submitCustomer";
             this.submitCustomer.Size = new System.Drawing.Size(361, 37);
-            this.submitCustomer.TabIndex = 44;
+            this.submitCustomer.TabIndex = 8;
             this.submitCustomer.Text = "Submit";
             this.submitCustomer.UseVisualStyleBackColor = true;
             this.submitCustomer.Click += new System.EventHandler(this.submitCustomer_Click);
@@ -449,7 +256,7 @@
             this.streetTextBox.Location = new System.Drawing.Point(142, 505);
             this.streetTextBox.Name = "streetTextBox";
             this.streetTextBox.Size = new System.Drawing.Size(238, 28);
-            this.streetTextBox.TabIndex = 45;
+            this.streetTextBox.TabIndex = 7;
             // 
             // addCustomer
             // 
@@ -480,6 +287,7 @@
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Delivery Managment System";
+            this.Load += new System.EventHandler(this.addCustomer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.countryCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.stateCombo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.cityCombo)).EndInit();
