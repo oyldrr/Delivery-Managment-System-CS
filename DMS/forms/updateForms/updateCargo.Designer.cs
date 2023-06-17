@@ -83,6 +83,7 @@
             this.submitCargo.TabIndex = 14;
             this.submitCargo.Text = "Submit";
             this.submitCargo.UseVisualStyleBackColor = true;
+            this.submitCargo.Click += new System.EventHandler(this.submitCargo_Click);
             // 
             // descriptionTextBox
             // 
@@ -100,9 +101,7 @@
             this.kryptonLabel16.Name = "kryptonLabel16";
             this.kryptonLabel16.Size = new System.Drawing.Size(158, 33);
             this.kryptonLabel16.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel16.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel16.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel16.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel16.TabIndex = 65;
             this.kryptonLabel16.Values.Text = "Description";
             // 
@@ -134,9 +133,7 @@
             this.kryptonLabel13.Name = "kryptonLabel13";
             this.kryptonLabel13.Size = new System.Drawing.Size(60, 25);
             this.kryptonLabel13.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel13.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel13.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel13.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel13.TabIndex = 64;
             this.kryptonLabel13.Values.Text = "Price:";
             // 
@@ -147,9 +144,7 @@
             this.kryptonLabel14.Name = "kryptonLabel14";
             this.kryptonLabel14.Size = new System.Drawing.Size(66, 25);
             this.kryptonLabel14.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel14.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel14.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel14.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel14.TabIndex = 63;
             this.kryptonLabel14.Values.Text = "Payer:";
             // 
@@ -160,9 +155,7 @@
             this.kryptonLabel15.Name = "kryptonLabel15";
             this.kryptonLabel15.Size = new System.Drawing.Size(127, 33);
             this.kryptonLabel15.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel15.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel15.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel15.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel15.TabIndex = 62;
             this.kryptonLabel15.Values.Text = "Payment";
             // 
@@ -186,7 +179,6 @@
             this.estimatedDatePicker.CalendarTodayDate = new System.DateTime(2023, 6, 5, 0, 0, 0, 0);
             this.estimatedDatePicker.Location = new System.Drawing.Point(542, 309);
             this.estimatedDatePicker.Name = "estimatedDatePicker";
-            this.estimatedDatePicker.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Global;
             this.estimatedDatePicker.Size = new System.Drawing.Size(238, 29);
             this.estimatedDatePicker.StateCommon.Content.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.estimatedDatePicker.TabIndex = 6;
@@ -206,9 +198,7 @@
             this.kryptonLabel10.Name = "kryptonLabel10";
             this.kryptonLabel10.Size = new System.Drawing.Size(81, 25);
             this.kryptonLabel10.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel10.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel10.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel10.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel10.TabIndex = 61;
             this.kryptonLabel10.Values.Text = "Weight:";
             // 
@@ -219,9 +209,7 @@
             this.kryptonLabel11.Name = "kryptonLabel11";
             this.kryptonLabel11.Size = new System.Drawing.Size(58, 25);
             this.kryptonLabel11.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel11.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel11.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel11.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel11.TabIndex = 60;
             this.kryptonLabel11.Values.Text = "Type:";
             // 
@@ -232,9 +220,7 @@
             this.kryptonLabel12.Name = "kryptonLabel12";
             this.kryptonLabel12.Size = new System.Drawing.Size(87, 33);
             this.kryptonLabel12.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel12.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel12.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel12.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel12.TabIndex = 59;
             this.kryptonLabel12.Values.Text = "Specs";
             // 
@@ -243,7 +229,6 @@
             this.entryDatePicker.CalendarTodayDate = new System.DateTime(2023, 6, 5, 0, 0, 0, 0);
             this.entryDatePicker.Location = new System.Drawing.Point(112, 309);
             this.entryDatePicker.Name = "entryDatePicker";
-            this.entryDatePicker.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.Global;
             this.entryDatePicker.Size = new System.Drawing.Size(238, 29);
             this.entryDatePicker.StateCommon.Content.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.entryDatePicker.TabIndex = 5;
@@ -255,9 +240,7 @@
             this.kryptonLabel9.Name = "kryptonLabel9";
             this.kryptonLabel9.Size = new System.Drawing.Size(106, 25);
             this.kryptonLabel9.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel9.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel9.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel9.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel9.TabIndex = 58;
             this.kryptonLabel9.Values.Text = "Estimated:";
             // 
@@ -268,9 +251,7 @@
             this.kryptonLabel7.Name = "kryptonLabel7";
             this.kryptonLabel7.Size = new System.Drawing.Size(63, 25);
             this.kryptonLabel7.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel7.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel7.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel7.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel7.TabIndex = 57;
             this.kryptonLabel7.Values.Text = "Entry:";
             // 
@@ -281,9 +262,7 @@
             this.kryptonLabel8.Name = "kryptonLabel8";
             this.kryptonLabel8.Size = new System.Drawing.Size(74, 33);
             this.kryptonLabel8.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel8.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel8.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel8.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel8.TabIndex = 56;
             this.kryptonLabel8.Values.Text = "Date";
             // 
@@ -303,9 +282,7 @@
             this.kryptonLabel5.Name = "kryptonLabel5";
             this.kryptonLabel5.Size = new System.Drawing.Size(91, 25);
             this.kryptonLabel5.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel5.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel5.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel5.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel5.TabIndex = 52;
             this.kryptonLabel5.Values.Text = "Receiver:";
             // 
@@ -325,9 +302,7 @@
             this.kryptonLabel6.Name = "kryptonLabel6";
             this.kryptonLabel6.Size = new System.Drawing.Size(78, 25);
             this.kryptonLabel6.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel6.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel6.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel6.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel6.TabIndex = 49;
             this.kryptonLabel6.Values.Text = "Sender:";
             // 
@@ -338,9 +313,7 @@
             this.kryptonLabel4.Name = "kryptonLabel4";
             this.kryptonLabel4.Size = new System.Drawing.Size(104, 33);
             this.kryptonLabel4.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel4.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel4.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel4.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel4.TabIndex = 46;
             this.kryptonLabel4.Values.Text = "Branch";
             // 
@@ -361,9 +334,7 @@
             this.kryptonLabel3.Name = "kryptonLabel3";
             this.kryptonLabel3.Size = new System.Drawing.Size(91, 25);
             this.kryptonLabel3.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel3.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel3.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel3.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel3.TabIndex = 44;
             this.kryptonLabel3.Values.Text = "Receiver:";
             // 
@@ -384,9 +355,7 @@
             this.kryptonLabel2.Name = "kryptonLabel2";
             this.kryptonLabel2.Size = new System.Drawing.Size(78, 25);
             this.kryptonLabel2.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel2.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel2.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel2.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel2.TabIndex = 40;
             this.kryptonLabel2.Values.Text = "Sender:";
             // 
@@ -397,9 +366,7 @@
             this.kryptonLabel1.Name = "kryptonLabel1";
             this.kryptonLabel1.Size = new System.Drawing.Size(136, 33);
             this.kryptonLabel1.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel1.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel1.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel1.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel1.TabIndex = 38;
             this.kryptonLabel1.Values.Text = "Customer";
             // 
@@ -410,9 +377,7 @@
             this.anrLabel.Name = "anrLabel";
             this.anrLabel.Size = new System.Drawing.Size(236, 43);
             this.anrLabel.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.anrLabel.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.anrLabel.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.anrLabel.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.anrLabel.TabIndex = 36;
             this.anrLabel.Values.Text = "Update Cargo";
             // 
@@ -436,15 +401,13 @@
             this.kryptonLabel18.Name = "kryptonLabel18";
             this.kryptonLabel18.Size = new System.Drawing.Size(71, 25);
             this.kryptonLabel18.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel18.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel18.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel18.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel18.TabIndex = 73;
             this.kryptonLabel18.Values.Text = "Status:";
             // 
             // barcodeLabel
             // 
-            this.barcodeLabel.Location = new System.Drawing.Point(904, 413);
+            this.barcodeLabel.Location = new System.Drawing.Point(926, 418);
             this.barcodeLabel.Name = "barcodeLabel";
             this.barcodeLabel.Size = new System.Drawing.Size(6, 2);
             this.barcodeLabel.TabIndex = 78;
@@ -453,23 +416,23 @@
             // pictureBox
             // 
             this.pictureBox.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox.Location = new System.Drawing.Point(888, 348);
+            this.pictureBox.Location = new System.Drawing.Point(911, 348);
             this.pictureBox.Name = "pictureBox";
             this.pictureBox.Size = new System.Drawing.Size(180, 80);
             this.pictureBox.TabIndex = 77;
             this.pictureBox.TabStop = false;
-            this.pictureBox.Visible = false;
             // 
             // barcodeGenerateButton
             // 
             this.barcodeGenerateButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.barcodeGenerateButton.Font = new System.Drawing.Font("Montserrat", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.barcodeGenerateButton.Location = new System.Drawing.Point(871, 327);
+            this.barcodeGenerateButton.Location = new System.Drawing.Point(871, 442);
             this.barcodeGenerateButton.Name = "barcodeGenerateButton";
-            this.barcodeGenerateButton.Size = new System.Drawing.Size(207, 121);
+            this.barcodeGenerateButton.Size = new System.Drawing.Size(197, 27);
             this.barcodeGenerateButton.TabIndex = 12;
-            this.barcodeGenerateButton.Text = "Generate";
+            this.barcodeGenerateButton.Text = "Generate new";
             this.barcodeGenerateButton.UseVisualStyleBackColor = true;
+            this.barcodeGenerateButton.Click += new System.EventHandler(this.barcodeGenerateButton_Click);
             // 
             // kryptonLabel17
             // 
@@ -478,9 +441,7 @@
             this.kryptonLabel17.Name = "kryptonLabel17";
             this.kryptonLabel17.Size = new System.Drawing.Size(118, 33);
             this.kryptonLabel17.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.kryptonLabel17.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.kryptonLabel17.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.kryptonLabel17.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.kryptonLabel17.TabIndex = 76;
             this.kryptonLabel17.Values.Text = "Barcode";
             // 

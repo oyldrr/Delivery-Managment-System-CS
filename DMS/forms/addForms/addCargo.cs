@@ -49,7 +49,32 @@ namespace DMS.forms.addForms
                 try
                 {
                     connection.Open();
-                    string query = "INSERT INTO cargos (senderCustomer, recieverCustomer, senderBranch, recieverBranch, entryDate, estimatedDate, barcode, type, weight, price, payer, description) VALUES (@val1, @val2, @val3, @val4, @val5, @val6, @val7, @val8, @val9, @val10, @val11, @val12)";
+                    string query = "INSERT INTO cargos " +
+                        "(senderCustomer, " +
+                        "recieverCustomer, " +
+                        "senderBranch, " +
+                        "recieverBranch, " +
+                        "entryDate, " +
+                        "estimatedDate, " +
+                        "barcode, " +
+                        "type, " +
+                        "weight, " +
+                        "price, " +
+                        "payer, " +
+                        "description) " +
+                        "VALUES " +
+                        "(@val1, " +
+                        "@val2, " +
+                        "@val3, " +
+                        "@val4, " +
+                        "@val5, " +
+                        "@val6, " +
+                        "@val7, " +
+                        "@val8, " +
+                        "@val9, " +
+                        "@val10, " +
+                        "@val11, " +
+                        "@val12)";
                     MySqlCommand command = new MySqlCommand(query, connection);
                     command.Parameters.AddWithValue("@val1", senderCustomer);
                     command.Parameters.AddWithValue("@val2", receiverCustomer);
@@ -178,7 +203,6 @@ namespace DMS.forms.addForms
 
             Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;
             pictureBox.Image = barcode.Draw(barcodeData, 50);
-            barcodeGenerateButton.Visible = false;
             pictureBox.Visible = true;
         }
     }

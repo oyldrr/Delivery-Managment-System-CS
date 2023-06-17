@@ -44,9 +44,7 @@
             this.BranchesLabel.Name = "BranchesLabel";
             this.BranchesLabel.Size = new System.Drawing.Size(242, 52);
             this.BranchesLabel.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.BranchesLabel.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.BranchesLabel.StateCommon.ShortText.TextH = ComponentFactory.Krypton.Toolkit.PaletteRelativeAlign.Center;
-            this.BranchesLabel.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.BranchesLabel.TabIndex = 1;
             this.BranchesLabel.Values.Text = "BRANCHES";
             // 
@@ -56,32 +54,26 @@
             this.addBranchButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.addBranchButton.Location = new System.Drawing.Point(0, 689);
             this.addBranchButton.Name = "addBranchButton";
-            this.addBranchButton.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
-            this.addBranchButton.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
-            this.addBranchButton.OverrideDefault.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
+            this.addBranchButton.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(162)))), ((int)(((byte)(255)))));
+            this.addBranchButton.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(162)))), ((int)(((byte)(255)))));
             this.addBranchButton.OverrideDefault.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.addBranchButton.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.addBranchButton.OverrideDefault.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.addBranchButton.OverrideFocus.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(72)))), ((int)(((byte)(103)))));
             this.addBranchButton.OverrideFocus.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(72)))), ((int)(((byte)(103)))));
-            this.addBranchButton.OverrideFocus.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.addBranchButton.OverrideFocus.Border.Draw = ComponentFactory.Krypton.Toolkit.InheritBool.False;
             this.addBranchButton.OverrideFocus.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.addBranchButton.OverrideFocus.Border.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
             this.addBranchButton.Size = new System.Drawing.Size(1582, 82);
-            this.addBranchButton.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
-            this.addBranchButton.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(62)))));
+            this.addBranchButton.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(162)))), ((int)(((byte)(255)))));
+            this.addBranchButton.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(162)))), ((int)(((byte)(255)))));
             this.addBranchButton.StateCommon.Back.ColorStyle = ComponentFactory.Krypton.Toolkit.PaletteColorStyle.Solid;
             this.addBranchButton.StateCommon.Back.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.CenterMiddle;
             this.addBranchButton.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
             this.addBranchButton.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(241)))), ((int)(((byte)(246)))), ((int)(((byte)(249)))));
             this.addBranchButton.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Montserrat Medium", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.addBranchButton.StateCommon.Content.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.addBranchButton.StateCommon.Content.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.addBranchButton.TabIndex = 3;
             this.addBranchButton.Values.Text = "+ ADD NEW RECORD +";
             this.addBranchButton.Click += new System.EventHandler(this.addBranchButton_Click);
@@ -124,8 +116,6 @@
             this.branchCheckBox.Name = "branchCheckBox";
             this.branchCheckBox.Size = new System.Drawing.Size(228, 27);
             this.branchCheckBox.StateCommon.ShortText.Font = new System.Drawing.Font("Montserrat Light", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.branchCheckBox.StateCommon.ShortText.ImageStyle = ComponentFactory.Krypton.Toolkit.PaletteImageStyle.Inherit;
-            this.branchCheckBox.StateCommon.ShortText.Trim = ComponentFactory.Krypton.Toolkit.PaletteTextTrim.Inherit;
             this.branchCheckBox.TabIndex = 6;
             this.branchCheckBox.Values.Text = "Show disactive cargos";
             this.branchCheckBox.CheckStateChanged += new System.EventHandler(this.branchCheckBox_CheckStateChanged);
@@ -135,18 +125,18 @@
             this.cardViewPanel.AutoScroll = true;
             this.cardViewPanel.Location = new System.Drawing.Point(22, 155);
             this.cardViewPanel.Name = "cardViewPanel";
-            this.cardViewPanel.Size = new System.Drawing.Size(1540, 514);
+            this.cardViewPanel.Size = new System.Drawing.Size(1540, 446);
             this.cardViewPanel.TabIndex = 8;
             // 
             // branchesUC
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.addBranchButton);
             this.Controls.Add(this.cardViewPanel);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.branchCheckBox);
             this.Controls.Add(this.searchBox);
-            this.Controls.Add(this.addBranchButton);
             this.Controls.Add(this.BranchesLabel);
             this.Name = "branchesUC";
             this.Size = new System.Drawing.Size(1582, 771);

@@ -78,7 +78,7 @@ namespace DMS.UserControls
                     // panel creating and styling
                     Panel panel = new Panel();
                     panel.BorderStyle = BorderStyle.None;
-                    panel.BackColor = System.Drawing.Color.FromArgb(33, 42, 62);
+                    panel.BackColor = System.Drawing.Color.FromArgb(48, 162, 255);
                     panel.Size = new Size(345, 225);
                     panel.Location = new Point(x, y);
 
@@ -101,7 +101,7 @@ namespace DMS.UserControls
                     button.FlatAppearance.BorderSize = 0;
                     button.Text = "Update";
                     button.ForeColor = System.Drawing.Color.FromArgb(241, 246, 249);
-                    button.BackColor = System.Drawing.Color.FromArgb(57, 72, 103);
+                    button.BackColor = System.Drawing.Color.FromArgb(0, 196, 255);
                     button.Cursor = Cursors.Hand;
 
                     button.MouseClick += (sender3, e3) =>
@@ -114,12 +114,12 @@ namespace DMS.UserControls
 
                     button.MouseEnter += (sender1, e1) =>
                     {
-                        button.BackColor = System.Drawing.Color.FromArgb(155, 164, 181);
+                        button.BackColor = System.Drawing.Color.FromArgb(255, 231, 160);
                     };
 
                     button.MouseLeave += (sender2, e2) =>
                     {
-                        button.BackColor = System.Drawing.Color.FromArgb(57, 72, 103);
+                        button.BackColor = System.Drawing.Color.FromArgb(0, 196, 255);
                     };
 
                     panel.Controls.Add(button);

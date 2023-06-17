@@ -49,5 +49,25 @@ namespace DMS
             cargosUC cargosUC = new cargosUC();
             addUserControl(cargosUC);
         }
+
+        private void instagramBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.instagram.com/oyldrr");
+        }
+
+        private void twitterBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.twitter.com/oguzhanyildirir");
+        }
+
+        private void linkedinBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/oyldrr");
+        }
+
+        private void infoBtn_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://oyldrr.info");
+        }
     }
 }
