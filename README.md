@@ -9,8 +9,8 @@ Trying to create minimalist design but i am not really statisfied from the solut
 - Functional country, state and city data keeping. (By help of a data set cities are linked to states and states are linked to countries.)
 - Barcode system for cargos. (Barcodes are being saved in database)
 - Data displaying in a card view by using panel system in c# winform. Not ugly as data grid view.
-- Data searching by using all of the columns, not just id or name.
-- Sort by alphabetical order, created_at or updated at. ASC, DESC.
+- Data searching by using all of the columns, not just id or name. (not yet)
+- Sort by alphabetical order, created_at or updated at. ASC, DESC. (not yet)
 
 ![App Image 1](https://github.com/oyldrr/Delivery-Managment-System-CS/assets/84236077/159561e0-edd6-4cfa-8e2b-1ac2084295e4)
 ![App Image 2](https://github.com/oyldrr/Delivery-Managment-System-CS/assets/84236077/d6c64761-487b-4993-8bf2-147d8437f7f0)
